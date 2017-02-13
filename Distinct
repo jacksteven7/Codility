@@ -1,0 +1,9 @@
+import java.util.HashSet;
+
+class Solution {
+    public int solution(int[] A) {
+        HashSet<Integer> numbers = new HashSet<>();
+		for (Integer num : A) { numbers.add(num); }
+		return numbers.size();  
+    }
+}
